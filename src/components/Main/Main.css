@@ -1,8 +1,8 @@
 /* General body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #001f3f; /* Dark blue background */
-  color: #ffffff; /* White text */
+  background-color: #ffffff; /* White background */
+  color: #24a3a9; /* Primary teal color for text */
   margin: 0;
   padding: 0;
 }
@@ -12,16 +12,16 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 20px auto;
-  background: linear-gradient(135deg, #003366, #004080); /* Dark blue gradient */
-  border: 1px solid #004080; /* Darker blue border */
+  background: linear-gradient(135deg, #24a3a9, #ffffff); /* Teal to white gradient */
+  border: 1px solid #24a3a9; /* Teal border */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
 /* Header styling */
 .chatbot-header {
-  background-color: #002244; /* Darker blue */
+  background-color: #24a3a9; /* Teal */
   color: #ffffff; /* White text */
   padding: 15px;
   font-size: 1.5em;
@@ -31,12 +31,12 @@ body {
 
 /* Chat window */
 .chat-window {
-  background-color: #001f3f; /* Dark blue background */
+  background-color: #ffffff; /* White background */
   padding: 20px;
   height: 400px;
   overflow-y: scroll;
-  border-top: 1px solid #004080; /* Dark blue border */
-  border-bottom: 1px solid #004080; /* Dark blue border */
+  border-top: 1px solid #24a3a9; /* Teal border */
+  border-bottom: 1px solid #24a3a9; /* Teal border */
 }
 
 /* Message styling */
@@ -48,20 +48,20 @@ body {
 }
 
 .user-message {
-  background-color: #336699; /* Light blue */
+  background-color: #24a3a9; /* Teal background */
   color: #ffffff; /* White text */
   text-align: right;
 }
 
 .bot-message {
-  background-color: #003366; /* Darker blue */
-  color: #ffffff; /* White text */
+  background-color: #e0f7f9; /* Light teal */
+  color: #24a3a9; /* Teal text */
 }
 
 /* Input area styling */
 .input-area {
   display: flex;
-  border-top: 1px solid #004080; /* Dark blue border */
+  border-top: 1px solid #24a3a9; /* Teal border */
 }
 
 .input-area input {
@@ -70,12 +70,12 @@ body {
   border: none;
   font-size: 1em;
   outline: none;
-  background-color: #336699; /* Light blue background */
-  color: #ffffff; /* White text */
+  background-color: #e0f7f9; /* Very light teal background */
+  color: #24a3a9; /* Teal text */
 }
 
 .input-area button {
-  background-color: #004080; /* Dark blue */
+  background-color: #24a3a9; /* Teal */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -84,7 +84,7 @@ body {
 }
 
 .input-area button:hover {
-  background-color: #8ec1f5; /* Darker blue on hover */
+  background-color: #1e8b91; /* Darker teal on hover */
 }
 
 /* Responsive design */
